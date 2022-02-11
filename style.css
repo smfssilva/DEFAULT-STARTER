@@ -118,3 +118,14 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+.container{
+  width: 50vw;
+  border: 5px solid var(--primary-500);
+  border-radius:var(--borderRadius);
+  max-width: var(--maxWidth);
+}
+.img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
