@@ -52,6 +52,18 @@ html {font-size: 100%;} /*16px*/
   --backgroudColor: var(--grey-50);
   --textColor: var(--grey-900);
 
+  --borderRadius: 0.25rem;
+  --letterspacing: 1px;
+  --transition: 0.3s ease-in-out all;
+  --max-width: 1120px;
+  --fixed-width: 600px;
+
+  /* box shadows */
+  --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-4: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
 }
 
 body {
@@ -80,6 +92,10 @@ h1, h2, h3, h4, h5 {
 h1 {
   margin-top: 0;
   font-size: 3.052rem;
+  transition: var(--transition);
+}
+h1:hover {
+  box-shadow: var(--shadow-4);
 }
 
 h2 {font-size: 2.441rem;}
