@@ -130,6 +130,7 @@ ul {
   object-fit: cover;
 }
 
+/* buttons */
 .btn{
   cursor: pointer;
   color: var(--white);
@@ -158,3 +159,30 @@ ul {
 .btn-block{
   width: 100%;
 }
+
+/* alerts */
+.alert {
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 1rem;
+  border-color: transparent;
+  border-radius: var(--borderRadius);
+}
+
+.alert-danger {
+  color: var(--red_dark);
+  background: var(--red-light);
+}
+
+.alert-success {
+  color: var(--green_green);
+  background: var(--green-light);
+}
+
+
+
+
+
+
+
+
+
